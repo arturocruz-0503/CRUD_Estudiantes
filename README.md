@@ -17,7 +17,13 @@
 - Validación de formularios
 - Mensajes de éxito y error
 
-El CRUD presentado en este proyecto nos permite guardar información de carreras disponibles en una universidad, también nos permite guardar información de los alumnos que estudian en dicha universidad. Además de solamente guardar información, se puede modificar y eliminar en caso de ser necesario. (Como nota, siempre hay que asegurar que haya por lo menos 1 carrera agregada antes de intentar agregar algún alumno)
+El CRUD presentado en este proyecto nos permite guardar información de carreras disponibles en una universidad, también nos permite guardar información de los alumnos que estudian en dicha universidad. Además de solamente guardar información, se puede modificar y eliminar en caso de ser necesario. (Como nota, siempre hay que asegurar que haya por lo menos 1 carrera agregada antes de intentar agregar algún alumno) (Como comentario adicional, debido a problemas con mi equipo, tuve que crear y utilizar un usuario distinto al que tenía por defecto en SQL Server, dicho usuario se puede cambiar en el archivo '.env':
+DB_CONNECTION=sqlsrv
+DB_HOST=TU_SERVIDOR
+DB_PORT=1433
+DB_DATABASE=crud_estudiantes
+DB_USERNAME=tu_usuario
+DB_PASSWORD=tu_contraseña
 
 ## Repositorio
 
