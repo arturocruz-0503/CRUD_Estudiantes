@@ -25,4 +25,4 @@ https://github.com/arturocruz-0503/CRUD_Estudiantes
 
 # Vista Previa
 
-![Vista previa del proyecto](\VistaPrevia.png)
+![Vista previa del proyecto](VistaPrevia.png)
