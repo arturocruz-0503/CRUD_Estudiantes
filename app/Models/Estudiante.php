@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Estudiante extends Model
+{
+    protected $table = 'estudiantes';
+    protected $fillable = ['nombre', 'correo', 'carrera_id', 'semestre'];
+
+    public function carrera()
+    {
+        return $this->belongsTo(Carrera::class);
+    }
+}
